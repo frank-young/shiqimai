@@ -45,7 +45,7 @@ gulp.task('images', function() {
     // .pipe(notify({ message: '图片处理完成' }));
 });
 
-//js代码校验、合并和压缩（类似jquery的链式操作，牛）
+//js代码校验、合并和压缩（类似jquery的链式操作）
 gulp.task('scripts', function() {
     return gulp.src('src/**/*.js') //源文件
         // .pipe(jshint('.jshintrc')) //1、校验JS文件，jshint校验规则
@@ -71,7 +71,7 @@ gulp.task('watch', function() {
     // 监听所有html文件
     gulp.watch('src/**/*.html', ['html']);
     // 监听所有图片档
-    gulp.watch('public/html/img/*', ['images']);
+    gulp.watch('src/img/*', ['images']);
     // Create LiveReload server（用来自动刷新浏览器）
     livereload.listen();
     // Watch any files in dist/, reload on change
