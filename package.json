@@ -1,7 +1,7 @@
 {
-  "name": "nanadeep",
+  "name": "shiqimai",
   "version": "1.0.0",
-  "description": "nana deep development website",
+  "description": "nshiqimai website",
   "main": "index.js",
   "dependencies": {
     "gulp": "^3.9.1",
